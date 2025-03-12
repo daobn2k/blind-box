@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-korolev-compressed: "Korolev Compressed W04 Heavy";
+  --font-day-ones: "Korolev Heavy", sans-serif;
+  --font-inter: "Korolev Heavy", sans-serif;
+  --font-lilita-one: "Korolev Heavy", sans-serif;
+  --ui-background: #0447bb;
+  --ui-background-1: #212530;
+  --ui-background-2: #374056;
+  --ui-background-3: #003343;
+  --text-secondary: #697687;
+  --green1: #20db20;
+  --green-70: #34f134;
+  --blue-1: #00eeff;
+  --brown-1: #c05112;
+  --success-full: #affdb5;
+  --yellow-1: #f2e30b;
+}
+body,
+html,
+a,
+p,
+h1,
+h2,
+h3,
+h5,
+h5,
+li,
+ul,
+ol,
+dl,
+dt,
+dd {
+  font-family: var(--font-inter);
+}
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100%;
+}
+body {
+  height: 100dvh;
+
+  background: var(--ui-background);
+}
+
+.text-11 {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13.31px;
+  letter-spacing: -0.04em;
+}
+
+.shadow-1 {
+  box-shadow: 0px -2px 1px -1px #ffffff59 inset;
+}
+
+.linear-gradient-1 {
+  background: linear-gradient(90deg, #f38424 0%, #f7c929 100%);
+}
+
+.linear-gradient-green-1 {
+  background: linear-gradient(180deg, #02e402 2.5%, #02db02 100%);
+}
+
+.stroke-0-4 {
+  -webkit-text-stroke: 0.8px #3b3b3b;
+  -webkit-text-fill-color: white;
+  paint-order: stroke fill;
+
+  text-shadow: 0px 0.5px 0px #000000, 0px 0.7px 1px #000000cc;
+}
+
+.stroke-0-7 {
+  -webkit-text-stroke: 1.2px #3b3b3b;
+  -webkit-text-fill-color: white;
+  paint-order: stroke fill;
+
+  text-shadow: 0px 0.5px 0px #000000;
+}
+
+.stroke-0-8 {
+  -webkit-text-stroke: 1.4px #3b3b3b;
+  -webkit-text-fill-color: white;
+  paint-order: stroke fill;
+
+  text-shadow: 0px 0.93px 0px #000000, 0px 0.5px 2px #00000066;
+}
+
+.stroke-1 {
+  -webkit-text-stroke: 1.5px #3b3b3b;
+  -webkit-text-fill-color: white;
+  paint-order: stroke fill;
+
+  text-shadow: 0px 0.93px 0px #000000, 0px 0.5px 2px #00000066,
+    0px 1px 0px #000000, 0px 1px 0px #000000;
+}
+
+.stroke-1-51 {
+  -webkit-text-stroke: 2px #3b3b3b;
+  -webkit-text-fill-color: white;
+  paint-order: stroke fill;
+
+  text-shadow: 0px 2.41px 0px 0px #000000;
+}
+
+.linear-gradient-play-game {
+  background: linear-gradient(
+    180deg,
+    #fee20e 26.5%,
+    #fcd113 36%,
+    #fcd113 64%,
+    #f6ba06 97%
+  );
+}
+
+[data-sonner-toast] {
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff9d4a 0%, #fa85c9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-linear {
+  background: linear-gradient(
+    90deg,
+    #bccfdf 2.27%,
+    #ddecf8 45.83%,
+    #bccfdf 100%
+  );
+}
+
+.bg-gradient-loading {
+  background: radial-gradient(50% 50% at 50% 50%, #046ffa 0%, #0447bb 100%);
+
+  border: 2px solid #0776e6;
+
+  padding: 12px 18px;
+}
