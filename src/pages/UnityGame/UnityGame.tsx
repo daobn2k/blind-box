@@ -10,10 +10,10 @@ export default function UnityGame() {
   const [devicePixelRatio, setDevicePixelRatio] = useState<number>(0);
   const { unityProvider, addEventListener, removeEventListener } =
     useUnityContext({
-      loaderUrl: "/game/BlindboxBuild.loader.js",
-      dataUrl: "/game/BlindboxBuild.data.unityweb",
-      frameworkUrl: "/game/BlindboxBuild.framework.js.unityweb",
-      codeUrl: "/game/BlindboxBuild.wasm.unityweb",
+      loaderUrl: "/game/BlindBox.loader.js",
+      dataUrl: "/game/BlindBox.data.unityweb",
+      frameworkUrl: "/game/BlindBox.framework.js.unityweb",
+      codeUrl: "/game/BlindBox.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "HamsterJet",
