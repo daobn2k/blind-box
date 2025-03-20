@@ -16,7 +16,7 @@ export default function UnityGame() {
       codeUrl: "/game/BlindBox.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
-      productName: "HamsterJet",
+      productName: "BlindBox",
       productVersion: "1.0",
     });
 

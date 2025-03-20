@@ -1,6 +1,6 @@
 export const API_ROUTES = {
-  AUTH: "/auth",
-  USER: "/user",
+  AUTH: "/v1/auth/telegram",
+  USER: "/v1/users/me",
   USER_FRIEND: "/user/friend",
   USER_LEADERBOARD: "/user/leader-board",
   BOOST: "/boost",
